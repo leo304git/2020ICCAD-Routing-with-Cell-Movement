@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="final project" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/final project" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="case1.txt" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/final project" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="case1.txt" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="include/Blockage.h" />
+		<Unit filename="include/CellInst.h" />
+		<Unit filename="include/Ggrid.h" />
+		<Unit filename="include/Layer.h" />
+		<Unit filename="include/MCtype.h" />
+		<Unit filename="include/Net.h" />
+		<Unit filename="include/Pin.h" />
+		<Unit filename="include/Route.h" />
+		<Unit filename="include/parser.h" />
+		<Unit filename="src/Blockage.cpp" />
+		<Unit filename="src/CellInst.cpp" />
+		<Unit filename="src/Ggrid.cpp" />
+		<Unit filename="src/Layer.cpp" />
+		<Unit filename="src/MCtype.cpp" />
+		<Unit filename="src/Net.cpp" />
+		<Unit filename="src/Pin.cpp" />
+		<Unit filename="src/Route.cpp" />
+		<Unit filename="src/main.cpp" />
+		<Unit filename="src/parser.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
